@@ -8,7 +8,7 @@
 	$('#first-project').click();
 	$(".loader-item").delay(500).fadeOut();
 	$("#pageloader").delay(1000).fadeOut("slow");
-	});
+});
 
 
  /*------------------------------*/

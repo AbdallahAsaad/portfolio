@@ -2816,6 +2816,10 @@ li.comment ol.comment-sub {
     color: #000;
 }
 
+#contact a{
+	color: #566B9C;
+	font-size: 25px !important;
+}
 footer {
 	padding: 17px 0px 10px;
 	background: #1C1C1C;
