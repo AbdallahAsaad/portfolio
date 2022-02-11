@@ -1448,6 +1448,7 @@ ul.timeline {
     position: relative;
     padding-bottom: 0px;
     line-height: 0;
+	margin-bottom: 100px;
 }
 
 .work-grid .mix {
@@ -2989,4 +2990,22 @@ footer {
 }
 .mfp-wrap{
 	z-index: 999999 !important;
+}
+
+.mfp-figure figure{
+	height: 70vh;
+	width: 70vw;
+}
+img.mfp-img{
+	max-height: auto;
+	width: 100%;
+	height: auto;
+    transition: -webkit-transform 0.25s ease;
+}
+
+img.mfp-img:active {
+    -webkit-transform: scale(2);
+}
+.features-tab3 .programs-info p{
+	line-height: 5px !important;
 }
