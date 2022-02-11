@@ -5,6 +5,7 @@
 
 
  $(window).load(function() {
+	$('#first-project').click();
 	$(".loader-item").delay(500).fadeOut();
 	$("#pageloader").delay(1000).fadeOut("slow");
 	});
@@ -317,8 +318,9 @@ $('.popup-image').magnificPopup({
 		 })(jQuery);
 
 		$('.collapse ul li a').click(function(){ 
-		$('.navbar-toggle:visible').click();
-	   });	
+			$('.navbar-toggle:visible').click();
+		});
+	   
 
 
 

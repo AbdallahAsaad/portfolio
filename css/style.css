@@ -2888,15 +2888,22 @@ footer {
 }
 
  @media (min-width: 768px) and (max-width: 992px) {
-	 
+
  .thumnail-img {
 	width:50%;
 }
 
 }
 
+@media (max-width: 768px) {
+	.pie-chart canvas {
+		top: -2rem !important;
+		left: 1rem !important;
+	}
+}   
+
  @media (max-width: 768px) {
-	 
+
  .thumnail-img {
 	width:50%;
 }
